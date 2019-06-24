@@ -39,6 +39,12 @@ section {
     background-color: #ffffff;
 }
 
+.nav a {
+    display: block;
+    float: right;
+    text-decoration: none;
+}
+
 .container {
     max-width:800px;
     margin:60px auto
