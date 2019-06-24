@@ -11,12 +11,14 @@
 </head>
 
 <body>
-    <div class ="nav">
-        <a href="#">ABOUT</a>
-        <a href="#">PROJECTS</a>
-        <a href="#">CONTACT</a>
-    </div>
-
+    <nav class ="mynav">
+        <ul>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+    <span class="target"></span>
     <div class="container">
 
 
@@ -27,7 +29,7 @@
             <h2> and are thoughtfully designed.</h2>
         </header>
 
-        <section class="about">
+        <section id="about">
             <h2>About</h2>
             <p>I'm a Ruby on Rails web developer, inspired to create build software that makes a difference. I
                 strongly believe that the best software comes from a foundation of empathy and human connection,
@@ -46,7 +48,7 @@
             </p>
         </section>
 
-        <section class="code">
+        <section id="projects">
             <h2>Things I've coded</h2>
             <p><a href="https://care-hub.herokuapp.com"> "Care Hub" Web App </a> <span class="ital">Ruby on Rails</span>
                 <br>
@@ -82,6 +84,7 @@
         </section>
 
     </div>
+    <!---- <script src="portfolio.js"></script> -->
 </body>
 
 </html>
