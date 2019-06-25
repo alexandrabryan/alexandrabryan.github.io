@@ -4,7 +4,7 @@
 body {
     font-weight:300;
     color: #222;
-    font-family: "Lato", sans-serif
+    font-family: "Lato", sans-serif;
 }
 
 h1 {
@@ -18,15 +18,15 @@ h1 {
 header h2 {
     font-size:1em;
     font-weight:300;
-    line-height:.7
+    line-height:.7;
 }
 
 p {
-    line-height:1.8
+    line-height:1.8;
 }
 
 header {
-    text-align:center
+    text-align:center;
 }
 
 section {
@@ -40,7 +40,7 @@ section {
 }
 
 
-/* start nav bar */
+/* start nav bar styling */
 .mynav ul {
     display: flex;
     justify-content: center;
@@ -60,6 +60,10 @@ section {
     text-decoration: none;
     padding: 7px 15px;
   }
+
+  .mynav a:hover {
+    text-decoration: underline;
+  }
   
   .target {
     position: absolute;
@@ -73,10 +77,21 @@ section {
     transition: all .35s ease-in-out;
   }
 /* end */
+
+.social {
+    text-align: center;
+}
+
+.social a {
+    font-size:25px;
+    padding:0 8px;
+    text-decoration:none;
+    color: black;
+}
   
 .container {
     max-width:800px;
-    margin:60px auto
+    margin:60px auto;
 }
 
 .bold {
@@ -84,7 +99,7 @@ section {
   }
 
 .ital {
-    font-style: italic
+    font-style: italic;
   }
 
 @media only screen and (max-width:600px)}
